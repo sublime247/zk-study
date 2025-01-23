@@ -1,87 +1,81 @@
-# zk-study
+# ZK-Study
 
-This repository contains zk-mathematics and will be following the curriculum below for building and learning
+A comprehensive study and implementation project for Zero-Knowledge Mathematics and Polynomial Implementations.
 
-## ZK Physical Cohort Syllables
-Milestone 1: 6th January - 2nd February 2025
-Goal: Polynomials
-Deliverables
-Implementations
-Univariate polynomial implementation
-Multilinear polynomial implementation (evaluation form)
-Composed polynomial implementation
-fully recursive and generic over operation type
+## Project Overview
 
-Milestone 2: 3rd February - 2nd March 2025
-Goal: Sumcheck and GKR
-Deliverables
-Implementations
-Fiat shamir transcript
-Sumcheck prover and verifier over composed polynomial
-GKR circuit representation with custom gates
-GKR prover and verifier
+This repository is dedicated to studying and implementing advanced zero-knowledge proof techniques, focusing on polynomial mathematics and zero-knowledge protocols.
 
-Milestone 3: 3rd March - 31st March 2025
-Goal: Polynomial commitment + Complete snark implementation
-Deliverables
-Implementations
-FRI implementation
-FRI-Binuis implementation
-Complete snark implementation (GKR + FRI-Binius)
+## Curriculum Roadmap
 
+### Milestone 1: Polynomials (January 6 - February 2, 2025)
+#### Goal
+Develop comprehensive polynomial implementations
 
+#### Deliverables
+- [ ] Univariate polynomial implementation
+- [ ] Multilinear polynomial implementation (evaluation form)
+- [ ] Composed polynomial implementation
+  - Fully recursive
+  - Generic over operation type
 
+### Milestone 2: Sumcheck and GKR (February 3 - March 2, 2025)
+#### Goal
+Implement Sumcheck and GKR protocols
 
+#### Deliverables
+- [ ] Fiat-Shamir transcript
+- [ ] Sumcheck prover and verifier over composed polynomial
+- [ ] GKR circuit representation with custom gates
+- [ ] GKR prover and verifier
 
-Breakdown
-univariate polynomials
-lagrange interpolation
-shamir secret sharing
+### Milestone 3: Polynomial Commitment + Complete SNARK (March 3 - March 31, 2025)
+#### Goal
+Advanced polynomial commitment and SNARK implementation
 
+#### Deliverables
+- [ ] FRI implementation
+- [ ] FRI-Binius implementation
+- [ ] Complete SNARK implementation (GKR + FRI-Binius)
 
-applying polynomials to zk
+## Detailed Study Breakdown
 
+### Polynomials
+- Univariate polynomials
+- Lagrange interpolation
+- Shamir secret sharing
+- Schwartz-Zippel lemma
+- Polynomial types:
+  - Univariate
+  - Multivariate
+  - Multilinear
 
-schwartz zippel lemma
-introduce different types of polys
-univariate, multivariate and multilinear
-perform degree analysis from the schwartz zippel context
-justifies multilinear polynomial in-depth
-multilinear polynomial
+### Key Topics
+- Coefficient form implementation
+- Evaluation form design
+- Composed polynomials
+- Boolean hypercube representations
+- Multilinear polynomial analysis
 
+### Advanced Protocols
+- Sumcheck protocol
+- Fiat-Shamir transformation
+- GKR (Gate-Reduction) protocol
+- Polynomial Commitment Schemes
+- FRI-Binius implementation
 
-co-efficient form implementation design session
-lagrange interpolation
-boolean hypercube [2HC] (graphical intuition)
-briefly introduce higher dimensional hypercubes i.e 3HC, 4HC, …NHC
-evaluation form design session
-composed polynomials (generic over op)
+## Exploration Areas
+- Higher-dimensional hypercube representations
+- Recursive polynomial composition
+- Custom gate implementations
+- Performance trade-offs in representations
 
+## Planned Implementations
+- Recursive composed polynomial representation
+- Sumcheck prover and verifier
+- GKR circuit representations
+- Complete SNARK implementation
 
-representing multivariate polynomials as composition of multilinear polynomials
-fully recursive composed polynomial representation i.e. composed that can hold composed
-introduce higher dimensional hypercubes as an alternative representation method i.e 3HC, 4HC, … NHC
-explore the tradeoff with both representations
-sumcheck
-
-
-application driven introduction to sumcheck (more complex applications to introduce more advanced sumcheck topics)
-evaluation form sumcheck (abstracts over composed polynomials)
-fiat shamir
-sumcheck prover and verifier design session
-GKR
-GKR theory
-GKR circuit representation design session
-ability to add custom gates
-GKR 2 to 1 trick
-prover design session
-verifier design session
-Polynomial Commitment Scheme
-
-
-FRI-Binius
-Complete SNARK: GKR + Polynomial Commitment Scheme
-
-
-
+## Contributions
+Contributions, suggestions, and improvements are welcome. Please open an issue or submit a pull request.
 
